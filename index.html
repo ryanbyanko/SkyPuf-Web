@@ -2,9 +2,29 @@
 <html>
 <head>
     <title>SkyPuf Web</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>SkyPuf</h1>
-    <p>TODO</p>
+    <img id="logo" src="skypuf_logo.png">
+
+    <canvas id="game-canvas"></canvas>
+
+    <br>
+
+    <label for="levels">Select Level:</label>
+    <select name="levels" id="levels">
+        <option value="blank">Blank</option>
+        <option value="official-1">Official 1</option>
+        <option value="official-2">Official 2</option>
+        <option value="official-3">Official 3</option>
+        <option value="official-4">Official 4</option>
+        <option value="official-5">Official 5</option>
+        <option value="official-6">Official 6</option>
+        <option value="screwdriver">Screwdriver</option>
+    </select>
+    <button>Import Level</button>
+    <button>Save Level</button>
+
+    <script src="script.js"></script>
 </body>
 </html>

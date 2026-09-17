@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    background-color: #263C7A;
+    color: white;
+}
+
+#logo {
+    width: 70vmin;
+}
+
+#game-canvas {
+    border: 1px solid black;
+    width: 70vmin;
+    height: 70vmin;
+    display: block;
+    margin: auto;
+}
